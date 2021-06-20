@@ -1,5 +1,6 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
@@ -10,14 +11,21 @@ import Resume from './components/Resume';
 
 
 function App() {
+  const [authenticated, setLogIn] = useState(false) 
+  
   return (
     <div>
-      <main>
-        <Header></Header>
-        <About></About>
-        <Work></Work>
-      </main>
+      <Router>
+        <Header loggedIn = {authenticated} />
+        <Switch>
+          <Route exact path = '/' component = { About }/>
+          <Route exact path = '/contact' component = { Contact }/>
+          <Route exact path = '/work' component = { Work }/>
+        </Switch>
+        <Footer/>
+      </Router>
     </div>
+  
   );
 }
 

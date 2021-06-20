@@ -1,17 +1,18 @@
 import React from 'react';
-function Header() {
+import { NavLink } from 'react-router-dom';
+function Header(props) {
     return (
-       <nav>
-           <ul>
+       <nav class ="header">
+           <ul class ="links">
                <li>
-                   <span>Work</span>
+                   <NavLink to = '/work' activeClassName = 'selected'>Work</NavLink>
                </li>
                <li>
-                   <span>Contact</span>
+               <NavLink to = '/contact' activeClassName = 'selected'>Contact</NavLink>
                </li>
-               <li>
-                   <span>Resume</span>
-               </li>
+               
+                   {props.loggedIn ? <li><span>Resume</span></li>: 'pizza'}
+               
                <li>
                    <span>Other Skills</span>
                </li>
