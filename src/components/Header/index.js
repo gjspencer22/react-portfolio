@@ -11,7 +11,7 @@ function Header(props) {
                <NavLink to = '/contact' activeClassName = 'selected'>Contact</NavLink>
                </li>
                
-                   {props.loggedIn ? <li><span>Resume</span></li>: 'pizza'}
+                   {props.loggedIn ? <li><NavLink to = '/resume' activeClassName = 'selected'>Resume</NavLink></li>: 'pizza'}
                
                <li>
                    <span>Other Skills</span>
