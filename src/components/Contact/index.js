@@ -7,17 +7,17 @@ function Contact(props) {
             </div>
             <div className="textEntry">
                 <div className="userName">
-                    <label for="name">Enter your name</label>
-                    <input type="text" id="name"></input>
+                    <h4 for="name">Enter your name</h4>
+                    <textarea className="userNameTextBox" type="text" placeholder="Nice to meet you"></textarea>
                 </div>
                 <div className="userEmail">
                     <h4>Email</h4>
-                    <textarea class="emailTextBox" type="text" placeholder="Leave email here" ></textarea>
+                    <textarea className="emailTextBox" type="text" placeholder="Leave email here" ></textarea>
 
                 </div>
                 <div className="userMessage">
-
-                    <textarea class="messageTextBox" type="text" placeholder="Feedback is appreciated!" ></textarea>
+                    <h4 className = "feedBack">Leave Feedback Here!</h4>
+                    <textarea className="messageTextBox" type="text" placeholder="Feedback is appreciated!" ></textarea>
                 </div>
             </div>
         </div>

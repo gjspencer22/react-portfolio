@@ -4,8 +4,7 @@ function About() {
     return (
         <div>
             <div>
-            <h1>Hello world!</h1>
-            <p>My name is Garrett, I am a full stack web developer!</p>
+            <p className="aboutParagraph">My name is Garrett, I am a full stack web developer!</p>
             </div>
             {/* <div className="profilePic">
                 <img src={ProfilePic}/>
@@ -15,4 +14,4 @@ function About() {
         </div>
     );
 }
-export default About;
+export default About; 

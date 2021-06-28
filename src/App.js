@@ -12,7 +12,7 @@ import Resume from './components/Resume';
 
 
 function App() {
-  const [authenticated, setLogIn] = useState(false) 
+  const [authenticated, setLogIn] = useState(true) 
   
   return (
     <div>
@@ -29,7 +29,6 @@ function App() {
         <Footer/>
       </Router>
     </div>
-  
   );
 }
 
