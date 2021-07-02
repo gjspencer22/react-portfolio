@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
+import './index.css';
 import React, { useState } from 'react';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
