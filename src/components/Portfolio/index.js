@@ -16,6 +16,7 @@ function portfolio() {
                 <h3>This is a reworked version of the donation tracking app, now with React!</h3>
                 <p>We reworked this to have react for the frontend and mongoose for the database</p>
                 <a href="https://github.com/ndahlberg95/updated-donation-tracker">Take a look at the repo here!</a>
+                <h1></h1>
                 <a href="https://updated-donation-tracker.herokuapp.com/">The deployed site!</a>
             </div>
         </div>

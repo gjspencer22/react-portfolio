@@ -15,8 +15,12 @@ function About() {
             <h3>Ghost Writer</h3>
                 <a href ="http://desolate-harbor-29412.herokuapp.com/">A Collaborative Story Telling Web App</a>
             </div>
-            <div>
-                <h3>Updated Donation Tracker</h3>
+            <div className="portfolioDiv3">
+                <h3>This is a reworked version of the donation tracking app, now with React!</h3>
+                <p>We reworked this to have react for the frontend and mongoose for the database</p>
+                <a href="https://github.com/ndahlberg95/updated-donation-tracker">Take a look at the repo here!</a>
+                <h1></h1>
+                <a href="https://updated-donation-tracker.herokuapp.com/">The deployed site!</a>
             </div>
             
             {/* <div className="profilePic">
