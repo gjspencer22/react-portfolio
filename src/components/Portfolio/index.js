@@ -12,6 +12,11 @@ function portfolio() {
                 <p>Users can creat an account and post stories of their own, or add to other users stories!</p>
                 <a href="http://desolate-harbor-29412.herokuapp.com/">Sign up here!</a>
             </div>
+            <div className="portfolioDiv3">
+                <h3>This is a reworked version of the donation tracking app, now with React!</h3>
+                <p>We reworked this to have react for the frontend and mongoose for the database</p>
+                <a href="https://github.com/ndahlberg95/updated-donation-tracker">Take a look here!</a>
+            </div>
         </div>
     )
 }
