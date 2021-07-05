@@ -9,18 +9,18 @@ function About() {
             </div>
             <div>
                 <h3>Donation Tracker Project</h3>
-                <a href ="https://ndahlberg95.github.io/donation-tracker/">A Donation Tracker Project</a>
+                <a href ="https://ndahlberg95.github.io/donation-tracker/" target="_blank">A Donation Tracker Project</a>
             </div>
             <div>
             <h3>Ghost Writer</h3>
-                <a href ="http://desolate-harbor-29412.herokuapp.com/">A Collaborative Story Telling Web App</a>
+                <a href ="http://desolate-harbor-29412.herokuapp.com/" target="_blank">A Collaborative Story Telling Web App</a>
             </div>
             <div className="portfolioDiv3">
                 <h3>This is a reworked version of the donation tracking app, now with React!</h3>
                 <p>We reworked this to have react for the frontend and mongoose for the database</p>
-                <a href="https://github.com/ndahlberg95/updated-donation-tracker">Take a look at the repo here!</a>
+                <a href="https://github.com/ndahlberg95/updated-donation-tracker" target="_blank">Take a look at the repo here!</a>
                 <h1></h1>
-                <a href="https://updated-donation-tracker.herokuapp.com/">The deployed site!</a>
+                <a href="https://updated-donation-tracker.herokuapp.com/" target="_blank">The deployed site!</a>
             </div>
             
             {/* <div className="profilePic">
