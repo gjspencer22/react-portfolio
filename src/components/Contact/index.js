@@ -1,5 +1,6 @@
-import React from 'react';
-function Contact(props) {
+import React from 'react'; 
+import './index.css'
+function Contact() {
     return (
         <div className="feedback">
             <div>

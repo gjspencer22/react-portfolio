@@ -1,0 +1,75 @@
+.userName {
+    padding: 25px;
+  }
+  .userNameTextBox {
+    color: grey;
+    border-radius: 2px;
+    background-color: lightgrey;
+    padding: 15px 20px;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .userEmail {
+    padding: 25px;
+  }
+  .userMessage {
+    padding: 25px;
+  }
+  .emailTextBox {
+    color: grey;
+    border-radius: 2px;
+    background-color: lightgrey;
+    padding: 15px 20px;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .messageField {
+    width: auto;
+    height: 200px;
+  }
+  
+  
+  .messageTextBox {
+    color: grey;
+    border-radius: 2px;
+    background-color: lightgrey;
+    padding: 15px 20px;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* .feedback {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  .textEntry {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  h3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  
+  .portfolioDiv {
+    text-align: center;
+    font-size: 18px;
+  }
+  .portfolioDivHeadline {
+    font-size: 20px;
+  }
+  

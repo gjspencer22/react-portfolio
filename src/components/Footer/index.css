@@ -1,0 +1,17 @@
+.footer {
+    background-image: url(/src/assets/HeaderImg/cool-background.png);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+    
+  }
+  h3 {
+    padding-right: 55px;
+  }

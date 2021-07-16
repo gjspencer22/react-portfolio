@@ -1,6 +1,14 @@
-.projects {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-
-}
+/* ABOUT */
+.aboutParagraph {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   border-width: 1px;
+   text-align: center;
+ }
+ .projects {
+   
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 18px;
+     text-align: center;
+ }
+ 

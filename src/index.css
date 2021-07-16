@@ -13,6 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+#root {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* Header */
 .header {
@@ -34,14 +37,6 @@ code {
   font-size: 32px;
 }
 
-/* ABOUT */
-.aboutParagraph {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
-  border-style: solid;
-  border-width: 1px;
-  text-align: center;
-}
 
 
 /* .profilePic{
@@ -61,93 +56,11 @@ code {
   text-shadow: 3px 3px 6px black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.footerBackground {
-  padding: 20px 35px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  background-image: url(/src/assets/HeaderImg/cool-background.png);
-  text-align: center;
-}
-.footer {
+
+
+/* .footerInfo {
   color: white;
   text-shadow: 3px 3px 6px black;
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-}
-.footerInfo {
-  color: white;
-  text-shadow: 3px 3px 6px black;
-}
-
-
-.userName {
-  padding: 25px;
-}
-.userNameTextBox {
-  color: grey;
-  border-radius: 2px;
-  background-color: lightgrey;
-  padding: 15px 20px;
-  margin: auto;
-  width: 90%;
-  height: 80%;
-  transition: 0.5s;
-  display: flex;
-  flex-wrap: wrap;
-}
-.userEmail {
-  padding: 25px;
-}
-.userMessage {
-  padding: 25px;
-}
-.emailTextBox {
-  color: grey;
-  border-radius: 2px;
-  background-color: lightgrey;
-  padding: 15px 20px;
-  margin: auto;
-  width: 90%;
-  height: 80%;
-  transition: 0.5s;
-  display: flex;
-  flex-wrap: wrap;
-}
-.messageField {
-  width: auto;
-  height: 200px;
-}
-
-
-.messageTextBox {
-  color: grey;
-  border-radius: 2px;
-  background-color: lightgrey;
-  padding: 15px 20px;
-  margin: auto;
-  width: 90%;
-  height: 80%;
-  transition: 0.5s;
-  display: flex;
-  flex-wrap: wrap;
-}
-/* .feedback {
-  display: flex;
-  flex-wrap: wrap;
 } */
-.textEntry {
-  display: flex;
-  flex-wrap:wrap;
-}
-
-
-
-.portfolioDiv {
-  text-align: center;
-}
-
 
 
