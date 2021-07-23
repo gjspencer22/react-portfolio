@@ -1,0 +1,47 @@
+/* Header */
+.header {
+  display: flex;
+  position: sticky;
+  background-color: #0e2e3b;
+  height: 80px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.myName {
+  margin: 0px;
+  color: #7db9b3;
+  padding-left: 55px;
+  padding-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  text-shadow: 1px 3px 8px black;
+}
+
+.links {
+  padding: 3px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  width: 90%;
+  color: #166678;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 6px;
+  /* box-shadow: 1px 1px 1px black; */
+  color: #166678;
+  font-style: italic;
+}
+a:hover {
+  box-shadow: 3px 3px 3px black;
+  transition: all 0.25s ease;
+}

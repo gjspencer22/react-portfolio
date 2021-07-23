@@ -1,8 +1,5 @@
 .selected {
-    color: white;
-  text-shadow: 3px 3px 6px black;
+    color: #7db9b3;
+    box-shadow: 3px 3px 3px black;
 }
-.NavLink {
-    color: white;
-    text-shadow: 3px 3px 6px black;
-}
+

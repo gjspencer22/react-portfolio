@@ -1,5 +1,5 @@
 .footer {
-    background-image: url(/src/assets/HeaderImg/cool-background.png);
+    background-color: #0e2e3b;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -14,4 +14,5 @@
   }
   h3 {
     padding-right: 55px;
-  }
+    color: #7db9b3;
+  } 

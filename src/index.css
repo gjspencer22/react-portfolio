@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightsteelblue;
+  background-color: #d8d7c3;
 }
 
 
@@ -17,45 +17,7 @@ code {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Header */
-.header {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: sticky;
-  width: 100%;
-  height: 100px;
-  border-style: solid;
-  border-width: 5px;
-  background-image: url(/src/assets/HeaderImg/cool-background.png);
-}
 
-.myName {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 32px;
-}
-
-
-
-/* .profilePic{
-  width: 25px;
-  height: 25px;
-  background-image: url(/src/assets/20190504_145300_HDR.jpg);
-} */
-.links {
-  padding: 35px 35px 35px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: sticky;
-  width: 100%;
-  height: 60px;
-  color: white;
-  text-shadow: 3px 3px 6px black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 
 /* .footerInfo {

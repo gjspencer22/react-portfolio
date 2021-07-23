@@ -1,12 +1,15 @@
 import React from 'react';
+import './index.css'
 import { NavLink } from 'react-router-dom';
 function Header(props) {
     return (
         <nav className="header">
-            
+
 
             <ul className="links">
-            <h1 className="myName">Garrett Spencer</h1>
+                <li>
+                    <h1 className="myName">Garrett Spencer</h1>
+                </li>
                 <li>
                     <NavLink to='/about' activeClassName='selected'>About Me</NavLink>
                 </li>
