@@ -9,10 +9,8 @@
     display: flex;
     justify-content: space-between;
 
-
-    
   }
-  h3 {
+  .footer.h3 {
     padding-right: 55px;
     color: #7db9b3;
   } 

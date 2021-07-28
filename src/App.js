@@ -13,21 +13,17 @@ import Resume from './components/Resume';
 
 
 function App() {
-  const [authenticated, setLogIn] = useState(true) 
-  
+  const [authenticated, setLogIn] = useState(true)
+
   return (
     <div>
       <Router>
-        <Header loggedIn = {authenticated} />
-        <Switch>
-          <Route exact path = '/' component = { About }/>
-          <Route exact path = '/about' component = { About }/>
-          <Route exact path = '/contact' component = { Contact }/>
-          <Route exact path = '/portfolio' component = { Portfolio }/>
-          <Route exact path = '/resume' component = { Resume }/>
-
-        </Switch>
-        <Footer/>
+        <Header />
+        <About />
+        <Portfolio />
+        <Resume />
+        <Contact />
+        <Footer />
       </Router>
     </div>
   );
